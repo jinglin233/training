@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>报名表格</title>
+</head>
+<body>
+<form>
+
+    姓名： <input type="text"><br>
+    电话：<input type="tel"><br>
+    email：<input type="email" required><br>
+    毕业院校：<input type="text"><br>
+    毕业时间：<input type="date"><br>
+    备注：<textarea name="" id="" cols="20" rows="5"></textarea><br>
+    <select name=reg_userPic onChange="document.images['avatar'].src=options[selectedIndex].value;">
+        <option value="">Image1
+        <option value="">Image2
+    </select>
+    <img id=avatar src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=672545338,2266152288&fm=116&gp=0.jpg" alt=个人形象代表><br/>
+
+    <input type="submit">
+</form>
+
+</body>
+</html>

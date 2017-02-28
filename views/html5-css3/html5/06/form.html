@@ -5,14 +5,23 @@
     <title>表单</title>
 </head>
 <body>
-<form action="/hhh/fff/" id="form" method="get" enctype="application/x-www-form-urlencoded" novalidate>
-    <input type="text" required/>
-    <input type="text" formaction="aaa/fff/ggg/"/>
-    <input type="text" formmethod="post"/>
-    <input type="submit"/>
+<form id="form" method="get"><!--required表示强制检查，novalidate表示不检查-->
+    <input type="text" required>
+    <input type="text" formaction="aaa/fff/ggg/">
+    <input type="text" formmethod="post">
+    <input type="email">
+    <input type="number">
+    <input type="date">
+    <input type="tel" required pattern="正则表达式">
+    <input type="range">
+    <input type="url">
+    <input type="search">
+    <input type="submit">
+
 </form>
 <textarea name="" id="" form="form" placeholder="请输入内容"></textarea>
 
-
+<p contenteditable="true" hidden>这是一段可编辑字段，点击编辑本字段,本字段已隐藏</p>
+<p></p>
 </body>
 </html>
