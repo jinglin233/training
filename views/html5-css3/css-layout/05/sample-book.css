@@ -32,9 +32,10 @@ a{
     color:#ffffff;
     padding:10px;
 }
- .nav-right a:hover{
-    background-color: #ee0005;
+ .nav-write a:hover{
+    background-color: #ee4737;
 }
+
 .nav-button{
     font-weight: bold;
     padding: 10px;
@@ -211,7 +212,7 @@ a{
     font-size: 0.7rem;
     color: #777;
     position: absolute;
-    bottom:-18rem;
+    bottom:-25rem;
     left:20%;
 
 }
