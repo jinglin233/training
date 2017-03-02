@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>absolute</title>
+    <style>
+        body{
+            margin:0;
+        }
+
+        .box{
+            height:400px;
+            width: 400px;
+            background-color: #ff3535;
+            position: absolute;
+            left:50px;
+            top:50px;
+        }
+        .green{
+            height: 300px;
+            width:180px;
+            background-color: green;
+            position: absolute;
+            left:30px;
+            top:20px;
+            z-index: -10;
+        }
+        .blue{
+            height: 230px;
+            width:250px;
+            background-color: blue;
+            position: absolute;
+            left:25px;
+            top:30px;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="green"></div>
+    <div class="blue"></div>
+</div>
+</body>
+</html>
