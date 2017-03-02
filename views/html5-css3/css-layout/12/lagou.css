@@ -1,0 +1,86 @@
+body{
+    margin:0;
+    line-height: 22px;
+}
+.logo img{
+    margin-left:120px;
+    width:100px;
+    height:40px;
+    line-height: 100px;
+
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.logo{
+    display: inline;
+    width:auto;
+    float: left;
+}
+.logo span {
+    position: relative;
+    top: -5px;
+    margin-left: 2px;
+    font-size: 18px;
+}
+header{
+    height:62px;
+    border-bottom: 1px #777 solid;
+}
+header ul{
+    width:700px;
+    position: relative;
+    left:50px;
+}
+header ul li{
+    font-size: 22px;
+    line-height: 60px;
+    width:60px;
+    height: 40px;
+    margin-left: 10px;
+    float: left;
+    list-style: none;
+}
+header li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #555;
+}
+header li a:hover{
+    color: #000000;
+    border-bottom: 2px #0d804f solid;
+}
+aside{
+    position: absolute;
+    left:10%;
+    top:100px;
+    width: 220px;
+    background-color: #eee;
+}
+aside a{
+    color: #555;
+    float: left;
+    white-space: nowrap;
+    margin: 0 5px 5px 0;
+    padding: 0 8px;
+}
+aside h2{
+    font-weight: 500;
+    font-size: 18px;
+}
+aside a:hover{
+    color: #078059;
+    border-bottom: 1px #078059;
+}
+aside .aside-technology:hover{
+    border-top: 1px #aaa solid;
+    border-left: 1px #aaa solid;
+    border-bottom: 1px #aaa solid;
+}
+.aside-technology{
+    height:170px;
+    width: 200px;
+    padding: 10px;
+    border:1px #fff solid;
+}
