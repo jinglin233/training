@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            margin:2px;
+            background-color: #0c8005;
+        }
+        .box{
+            display: flex;
+            height: 80px;
+            width: 500px;
+            border: 1px #e6c81e solid;
+
+
+        }
+        .item{
+            flex-flow: ;
+            flex-grow: ;
+            flex-basis: ;
+            flex-direction: ;
+            flex-wrap: ;
+            align-content: ;
+            justify-content: ;
+            
+            height: 50px;
+            width:50px;
+            border:1px #099 solid;
+            background-color: #d067dd;
+        }
+        .order1{
+            order: 1;
+
+        }
+        .order2{
+            order: 2;
+            flex-shrink: 10;
+        }
+        .order3{
+            order: 3;
+            flex-basis: 80px;
+        }
+        .order4{
+            order: 4;
+            flex:1 30px;
+        }
+        .order5{
+            order: 5;
+            align-self: flex-end;
+        }
+        .order6{
+            order: 6;
+            align-self: center;
+        }
+        .order7{
+            order: 7;
+            align-self: baseline;
+
+        }
+        .order8{
+            order: 8;
+            align-self: stretch;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="item order4">1</div>
+    <div class="item order1">2</div>
+    <div class="item order5">3</div>
+    <div class="item order6">4</div>
+    <div class="item order7"><h1>5</h1></div>
+    <div class="item order2" >6</div>
+    <div class="item order8">7</div>
+    <div class="item order3">8</div>
+</div>
+</body>
+</html>

@@ -1,7 +1,6 @@
 body{
     margin:0;
     font-size: 62.5%;
-
 }
 img{
     border-radius: 1%;
@@ -11,8 +10,14 @@ a{
     color: #000000;
 }
 .nav{
-    width:auto;
+    width:1200px;
     margin-bottom: 2rem;
+}
+.nav-left ul{
+    width:600px;
+}
+.nav-right ul{
+    width: 600px;
 }
 .nav-left li{
     list-style: none;
@@ -61,7 +66,7 @@ a{
     width:120%;
 }
 .content{
-    margin-left:5%;
+    margin-left:80px;
     width: 750px;
     position: absolute;
     left:20px;
@@ -89,10 +94,9 @@ a{
     font-weight: bold;
 }
 .board{
-    width: 300px;
-    position: absolute;
+    width: 350px;
+   position: relative;
     left:800px;
-    top:80px;
 }
 .board li img{
     width: 250px;
