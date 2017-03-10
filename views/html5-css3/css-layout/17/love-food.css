@@ -1,0 +1,535 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: content-box;
+    font-size: 62.5%;
+    font-family: "Microsoft YaHei", "宋体", 'Myriad Pro', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #1b1c1d;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.clear {
+    width: 100%;
+    height: 2em;
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+li {
+    list-style: none;
+}
+
+i {
+    display: inline-block;
+}
+
+section, footer {
+    width: 100%;
+}
+
+header nav {
+    margin: 0 auto;
+    width: 1125px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F5595B;
+    height: 50px;
+    display: block;
+}
+
+header ul {
+    align-items: center;
+    width: 1125px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    color: #fff;
+    font-size: 1.4em;
+    display: inline-block;
+}
+
+header .btn-white {
+    width: 46px;
+    height: 49px;
+    background-color: #fff;
+
+}
+
+header .btn-white i {
+    position: relative;
+    left: 10px;
+    top: 15px;
+    width: 23px;
+    height: 19px;
+    background: url("/training/public/images/sprite/LoveFood/icon.png") no-repeat -186px 0px;
+}
+
+header ul li:nth-child(2) a {
+    position: relative;
+    top: -10px;
+}
+
+header ul li:nth-child(3) span {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+header ul li:nth-child(3) a {
+    display: inline-block;
+}
+
+header ul li i {
+    width: 34px;
+    height: 41px;
+    background: url("/training/public/images/sprite/LoveFood/icon.png") no-repeat -140px 0px;
+}
+
+header ul li .shop-car {
+    position: relative;
+    top: 15px;
+    left: 5px;
+    width: 25px;
+    height: 22px;
+    background: url("/training/public/images/sprite/LoveFood/icon.png") no-repeat -470px 0px;
+}
+
+.background-1 {
+    width: 100%;
+    height: 800px;
+    background: url("/training/public/images/LoveFood/12.png") no-repeat -100px -200px;
+}
+
+.nav-home {
+    width: 1125px;
+    height: 61px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    font-size: 1.4em;
+}
+
+.nav-home li {
+    width: 189px;
+    height: 61px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-left: 1px #eee solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-home a {
+    color: #1b1c1d;
+    font-size: 20px;
+}
+
+.nav-home .active {
+    background-color: #1F3F55;
+}
+
+article {
+    display: flex;
+    margin: 0 auto;
+    width: 1125px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+article a {
+    color: #fff;
+}
+
+.home-img {
+    margin-top: 2em;
+    width: 128px;
+    height: 128px;
+    background: url("/training/public/images/sprite/LoveFood/icon.png") no-repeat 0px 0px;
+}
+
+.art1-h1 {
+    color: #F5595B;
+    font-size: 4.8em;
+}
+
+.art1-p1 {
+    color: #fff;
+    font-size: 4.8em;
+}
+
+.art1-a1 {
+    display: block;
+    width: 184px;
+    height: 44px;
+    font-size: 2em;
+    margin-top: 1em;
+    background-color: #F5595B;
+    text-align: center;
+    line-height: 44px;
+}
+
+.art1-box {
+    width: 100%;
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
+
+.art1-box1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 176px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.art1-box1 p {
+    font-size: 2em;
+    color: #1b1c1d;
+}
+
+.box-img1 {
+    width: 100px;
+    height: 100px;
+    background: url("/training/public/images/sprite/LoveFood/icon.png") no-repeat -859px 0px;
+}
+
+.box-img2 {
+    width: 100px;
+    height: 100px;
+    background: url("/training/public/images/sprite/LoveFood/icon.png") no-repeat -227px 0px;
+}
+
+.box-img3 {
+    width: 100px;
+    height: 100px;
+    background: url("/training/public/images/sprite/LoveFood/icon.png") no-repeat -342px 0px;
+}
+
+.art1-box2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 16px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.art1-box2 p {
+    width: 279px;
+    margin: 0 auto;
+    font-size: 1.6em;
+}
+
+.background-2 {
+    width: 100%;
+    height: 900px;
+    background-color: #fff;
+}
+
+.art2-h2 {
+    text-align: center;
+    width: 193px;
+    font-size: 2.4em;
+    color: #F5595B;
+    padding: 1.5em 0;
+    border-bottom: 2px #000 solid;
+}
+
+.art2-p1 {
+    font-size: 1.8em;
+    width: 855px;
+    line-height: 1.5em;
+    color: #232323;
+    margin-top: 1em;
+}
+
+.art2-p2 {
+    width: 80%;
+    font-size: 3em;
+    color: #fff;
+    margin-top: 0.4em;
+    text-align: right;
+}
+
+.art2-box1 {
+    width: 349px;
+    height: 268px;
+    background: url("/training/public/images/sprite/LoveFood/icon.png") no-repeat -387px -132px;
+}
+
+.art2-box3 {
+    width: 349px;
+    height: 268px;
+    background: url("/training/public/images/sprite/LoveFood/icon.png") no-repeat 0px -136px;
+}
+
+.art2-box4 {
+    width: 349px;
+    height: 268px;
+    background: url("/training/public/images/sprite/LoveFood/icon.png") no-repeat 0px -444px;
+}
+
+.art2-box2 {
+    width: 349px;
+    height: 268px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F3F55;
+}
+
+.art2-box2 h3 {
+    font-size: 2.4em;
+}
+
+.art2-box2 .p2 {
+    width: 290px;
+    margin-top: 1em;
+    font-size: 1.6em;
+}
+
+.art2-p2 span {
+    font-size: 0.4em;
+}
+
+.background-3 {
+    width: 100%;
+    height: 600px;
+    background-color: #69737B;
+}
+
+.background-3 img {
+    width: 447px;
+    height: 396px;
+}
+
+.art3-box {
+    margin-top: 10em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.art3-content {
+    text-align: left;
+    width: 628px;
+}
+
+.art3-content .art3-h2 {
+    text-align: center;
+    width: 193px;
+    font-size: 2.4em;
+    color: #F5595B;
+    padding: 1.5em 0;
+    border-bottom: 2px #000 solid;
+}
+
+.art3-content h3 {
+    font-size: 1.8em;
+    margin: 1em 0;
+}
+
+.art3-content p {
+    font-size: 1.6em;
+    margin-bottom: 1em;
+}
+
+.background-4 {
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+}
+
+.article4 {
+    margin-top: 5em;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.art4-box {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.art4-box1 {
+    width: 253px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    color: #232323;
+}
+
+.background-4 h2 {
+    margin: 0 auto;
+}
+
+.art4-box1 h3 {
+    width: 250px;
+    height: 48px;
+    line-height: 48px;
+    background-color: #1f3f55;
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+}
+
+.art4-box1 img {
+    width: 100%;
+    height: 168px;
+}
+
+.art4-p1 {
+    font-size: 1.4em;
+    margin-top: 1em;
+}
+
+.art4-p2 {
+    width: 100%;
+    font-size: 1.394em;
+    color: #F55965;
+    text-align: left;
+}
+
+footer {
+    width: 100%;
+    height: 329px;
+    background-color: #69737b;
+}
+
+.footer-box {
+    padding-top: 3em;
+    color: #fff;
+    width: 1125px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
+
+.footer-box ul a {
+    color: #fff;
+}
+
+.footer-box .about {
+    line-height: 2.5em;
+    font-size: 1.4em;
+    text-align: left;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 208px;
+    align-items: flex-start;
+}
+
+.footer-red a {
+    font-size: 1.8em;
+    color: #F5595B !important;
+}
+
+.footer-bottom {
+    width: 100%;
+    height: 60px;
+    background-color: #F5595B;
+    line-height: 60px;
+}
+
+.bottom-box {
+    width: 1125px;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    align-items: center;
+    color: #fff;
+}
+
+.icon1 {
+    margin-left: 1em;
+    width: 36px;
+    height: 36px;
+    background: url("/training/public/images/sprite/LoveFood/icon.png") no-repeat -526px 0px;
+}
+
+.icon2 {
+    margin-left: 1em;
+    width: 36px;
+    height: 36px;
+    background: url("/training/public/images/sprite/LoveFood/icon.png") no-repeat -572px 0px;
+}
+
+.icon3 {
+    margin-left: 1em;
+    width: 36px;
+    height: 36px;
+    background: url("/training/public/images/sprite/LoveFood/icon.png") no-repeat -632px 0px;
+}
+
+.icon4 {
+    margin-left: 1em;
+    width: 36px;
+    height: 36px;
+    background: url("/training/public/images/sprite/LoveFood/icon.png") no-repeat -689px 0px;
+}
+
+.icon5 {
+    margin-left: 1em;
+    width: 36px;
+    height: 36px;
+    background: url("/training/public/images/sprite/LoveFood/icon.png") no-repeat -739px 0px;
+}
+
+.icon6 {
+    margin-left: 1em;
+    width: 36px;
+    height: 36px;
+    background: url("/training/public/images/sprite/LoveFood/icon.png") no-repeat -786px 0px;
+}
+
+.footer-bottom-p {
+    margin-right: 10%;
+}
+
+.back-top {
+    width: 22px;
+    height: 32px;
+    background: url("/training/public/images/sprite/LoveFood/icon.png") no-repeat -837px 0px;
+    position: fixed;
+    bottom: 80px;
+    right: 5px;
+}

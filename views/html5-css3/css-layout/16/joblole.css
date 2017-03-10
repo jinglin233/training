@@ -1,0 +1,458 @@
+@media all and (max-width: 960px) {
+    .head-ad {
+        display: none;
+    }
+
+    nav, .content, .banner, .broadcast, section {
+        width: 720px !important;
+    }
+
+    .box-img {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 720px) {
+    .nav-right {
+        width: 320px !important;
+        margin: 0 auto !important;
+    }
+
+    nav, .content, .banner, .broadcast, section {
+        display: flex !important;
+        justify-content: space-around !important;
+        width: 80% !important;
+        margin: 0 auto !important;
+    }
+
+    section, article {
+        width: 100%;
+    }
+
+    .head-img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .grid-5 {
+        width: 80% !important;
+    }
+
+    article {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 1em;
+    }
+
+    #hidden-nav {
+        display: none;
+    }
+
+    .grid-4 {
+        width: 100% !important;
+    }
+
+    #play-nav {
+        display: block;
+        position: relative;
+        left: 60%;
+    }
+
+    aside {
+        position: absolute;
+        left: 10%;
+        top: 1000px;
+    }
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+nav, .content, .banner, .broadcast, section {
+    margin: 0 auto;
+    display: flex;
+    width: 960px;
+    justify-content: space-between;
+}
+
+.hidden {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    width: 0;
+}
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.broadcast {
+    background-color: #f8f8f8;
+    padding: 1em 0;
+    color: #5e5e5e;
+}
+
+.banner {
+    padding-top: 40px;
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+section {
+    width: 70%;
+}
+
+aside {
+    width: 30%;
+}
+
+.content-box1 {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+header {
+    position: fixed;
+    z-index: 100;
+    background-color: #fff;
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px #eeeeee solid;
+    display: block;
+}
+
+aside .community {
+    margin: 20px auto;
+    border: 1px #eee solid;
+}
+
+.grid-1, .grid-2, .grid-3, .head-img, h3 {
+    margin: 0 10px;
+    display: block;
+    float: left;
+}
+
+.grid-4 {
+    width: 50%;
+}
+
+.grid-5 {
+    width: 46%;
+    margin: 2% 2%;
+
+}
+
+header .grid-1 {
+    width: 40%;
+}
+
+header .grid-2 {
+    width: 30%;
+    margin-left: 20%;
+}
+
+header .nav-left {
+    position: relative;
+    left: -50px;
+    width: 300px;
+}
+
+header .nav-right {
+    display: block;
+    float: right;
+    width: 100%;
+}
+
+header ul a {
+    display: inline-block;
+    padding: 0 10px;
+    color: #333;
+    height: 30px;
+    line-height: 30px;
+    border-right: 1px #eee solid;
+}
+
+header ul a:hover {
+    background-color: #eee;
+}
+
+header .grid-1 .nav-left li {
+    float: left;
+}
+
+header .grid-2 .nav-right li {
+    float: right;
+}
+
+.header-content .head-img img {
+    float: left;
+    height: 84px;
+    width: 134px;
+}
+
+.banner .head-ad {
+    float: left;
+    margin-left: 10%;
+}
+
+.content-john {
+    font-size: 14px;
+    margin: 20px 10px;
+    line-height: 30px;
+    background-color: #f8f8f8;
+    padding-left: 10px;
+}
+
+.broadcast a {
+    display: block;
+    padding: 5px 0;
+    color: #444;
+}
+
+.content-hot {
+    width: 960px;
+    display: flex;
+    align-content: space-around;
+
+}
+
+.content h3, h4 {
+    width: 60%;
+    color: #0099cc;
+    padding-bottom: 10px;
+    border-bottom: 1px #e8e8e8 solid;
+}
+
+.content-hot a {
+    color: #333;
+}
+
+.content-hot a:hover {
+    color: #0099cc;
+
+}
+
+.box-img {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.box-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.content-box1 div {
+    padding-bottom: 10px;
+}
+
+.content-p a {
+    float: right;
+    color: #0099cc;
+}
+
+.content-p a:hover {
+    color: #b30000;
+}
+
+.grid-4-img {
+    float: left;
+    margin-right: 10px;
+    padding: 4px;
+    border: 1px solid #e8e8e8;
+}
+
+.grid-4-img img {
+    width: 60px;
+    height: 60px;
+}
+
+.grid-4-p p {
+    font-size: 13px;
+}
+
+.grid-4-p a {
+    color: #666;
+}
+
+.grid-4-p a:hover {
+    color: #333;
+}
+
+.box-right {
+    margin-left: 2%;
+    color: #333;
+}
+
+.grid-4-icon img {
+    margin: 0 5px;
+    height: 10px;
+    width: 10px;
+}
+
+.aside-banner img {
+    width: 18em;
+    height: 10em;
+}
+
+article {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
+
+.community {
+    padding: 1.3em;
+    border: 1px solid gainsboro;
+    line-height: 2.5em;
+}
+
+.community-top {
+    border-bottom: 1px solid gainsboro;
+}
+
+.community-top p {
+    color: #000;
+    font-weight: bold;
+}
+
+.community-top span {
+    color: #999;
+}
+
+.community-bottom a {
+    color: #0099cc;
+}
+
+.third-party a {
+    display: inline-block;
+    width: 1.6em;
+}
+
+.footerMain, .footMain {
+    margin: 0 auto;
+    display: -webkit-flex;
+    display: flex;
+    width: 960px;
+    justify-content: space-between;
+    font-size: 1.4em;
+
+}
+
+.footerMain h1 {
+    color: #09c;
+    font-size: 0.8em;
+    border-bottom: 1px solid gainsboro;
+    padding: 0.5em 0;
+}
+
+footer {
+    border: 1px solid gainsboro;
+    background-color: #f8f8f8;
+}
+
+.clear {
+    width: 100%;
+    height: 20px;
+    clear: both;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+.quick-link {
+    color: black;
+    font-weight: bold;
+}
+
+.footerMain {
+    padding: 2em 0;
+}
+
+.footerMain .list {
+    padding-right: 2em;
+}
+
+.footerMain .list h1 {
+    margin-bottom: 2em;
+}
+
+.footerMain .list a {
+    color: #09c;
+    font-size: 0.8em;
+}
+
+.erWeiMa {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.erWeiMa p {
+    flex-basis: 100%;
+}
+
+.erWeiMa img {
+    width: 30%;
+    height: auto;
+}
+
+.foot {
+    border: 1px solid gainsboro;
+    background-color: #fff;
+    height: 3em;
+}
+
+.foot a, .foot span {
+    color: #999;
+    padding-right: 1em;
+}
+
+.foot span {
+    padding-right: 2em;
+}
+
+.footMain {
+    padding-top: 1em;
+    line-height: 1em;
+    justify-content: flex-start;
+}
+
+.list {
+    display: flex;
+    flex-flow: column;
+    width: 300px;
+    margin-top: 20px;
+}

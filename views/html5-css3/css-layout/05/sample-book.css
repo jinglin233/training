@@ -224,7 +224,5 @@ a{
     text-align: center;
     font-size: 0.7rem;
     color: #777;
-    position: absolute;
-    bottom:-25rem;
-    left:20%;
+    margin-left: 9%;
 }

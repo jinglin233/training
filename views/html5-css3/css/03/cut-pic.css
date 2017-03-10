@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.pic{
+    width: 81px;
+    height: 79px;
+    background: url("lianxi.png") no-repeat 0px 0px;
+}
+.pic-1{
+    width: 58px;
+    height: 145px;
+    background: url("/training/public/images/css-layout/pic-pro/lianxi.png") no-repeat -91px 0px;
+}
