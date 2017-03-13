@@ -24,13 +24,6 @@
             text-shadow: 30px -10px 10px #000;
         }*/
 
-        .liner{
-             width:300px;
-             height: 300px;
-             background:linear-gradient(red 50% ,blue 50% );
-             background-size: 20px 20px;
-             transform: rotate(90deg);
-         }
 
         .box1 {
             width: 200px;
@@ -53,6 +46,9 @@
             bottom: 0;
             left: 0;
             z-index: -1;
+        }
+        .box1:hover::after{
+            background-color: #4749ff;
         }
         .box2 {
             width: 200px;
@@ -79,23 +75,6 @@
     </style>
 </head>
 <body>
-<div><h1>HELLO,WORLD!</h1></div>
-
-<div class="box1"></div>
-<div class="pic">
-    <div class="pic1"></div>
-    <div class="pic1"></div>
-    <div class="pic1"></div>
-    <div class="pic1"></div>
-    <div class="pic1"></div>
-    <div class="pic2"></div>
-    <div class="pic3"></div>
-    <div style="clear: both"></div>
-    <div class="pic4"></div>
-    <div class="pic5"></div>
-    <div class="pic6"></div>
-</div>
-<div class="liner"></div>
 <div class="box1"> roma</div>
 <div class="box2"> roma</div>
 <div class="box1"> roma</div>

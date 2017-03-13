@@ -358,7 +358,7 @@ article {
     width: 1.6em;
 }
 
-.footerMain, .footMain {
+.footerbox, .footMain {
     margin: 0 auto;
     display: -webkit-flex;
     display: flex;
@@ -368,13 +368,15 @@ article {
 
 }
 
-.footerMain h1 {
+.footerbox h1 {
     color: #09c;
     font-size: 0.8em;
     border-bottom: 1px solid gainsboro;
     padding: 0.5em 0;
 }
-
+.footerbox a{
+    color: #58B0D5;
+}
 footer {
     border: 1px solid gainsboro;
     background-color: #f8f8f8;
@@ -396,35 +398,35 @@ footer ul {
     font-weight: bold;
 }
 
-.footerMain {
+.footerbox {
     padding: 2em 0;
 }
 
-.footerMain .list {
+.footerbox .list {
     padding-right: 2em;
 }
 
-.footerMain .list h1 {
+.footerbox .list h1 {
     margin-bottom: 2em;
 }
 
-.footerMain .list a {
+.footerbox .list a {
     color: #09c;
     font-size: 0.8em;
 }
 
-.erWeiMa {
+.foot-img {
     display: flex;
     display: -webkit-flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.erWeiMa p {
+.foot-img p {
     flex-basis: 100%;
 }
 
-.erWeiMa img {
+.foot-img img {
     width: 30%;
     height: auto;
 }
@@ -433,6 +435,8 @@ footer ul {
     border: 1px solid gainsboro;
     background-color: #fff;
     height: 3em;
+    display: flex;
+    justify-content: center;
 }
 
 .foot a, .foot span {
@@ -444,7 +448,7 @@ footer ul {
     padding-right: 2em;
 }
 
-.footMain {
+.footbox {
     padding-top: 1em;
     line-height: 1em;
     justify-content: flex-start;
