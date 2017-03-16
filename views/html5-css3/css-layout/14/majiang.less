@@ -1,0 +1,126 @@
+@display:flex;
+@width-w:100px;
+@height-h:200px;
+@justify-content:space-around;
+@bg-color:#eee;
+@red-color:red;
+@align-center:center;
+@align-left:left;
+@border-radius:50%;
+@align-right:right;
+@align-item-start:flex-start;
+@align-item-end:flex-end;
+@self-100:100%;
+@self-40:40%;
+@flex-wrap:wrap;
+@flex-column:column;
+@margin-left-right:0 10px;
+@width-sma-w:30px;
+@width-sma-h:30px;
+body{
+  display:@display;
+}
+section{
+  margin:@margin-left-right;
+  justify-content:@justify-content;
+  align-items: @align-center;
+  display:@display;
+  width:@width-w;
+  height:@height-h;
+  background-color:@bg-color;
+}
+.point{
+  height:@width-sma-w;
+  width:@width-sma-h;
+  background-color:@red-color;
+  border-radius:@border-radius;
+}
+.box{
+  flex-flow:@flex-wrap;
+  display:@display;
+  justify-content: @justify-content;
+}
+.b1{
+  justify-content:@align-center;
+  align-items:@align-center;
+}
+.b2{
+  flex-direction:@flex-column;
+  justify-content:@justify-content;
+  align-items: @align-center;
+}
+.b3{
+  justify-content: @align-center;
+}
+.b3 .point:nth-child(2) {
+  align-self: @align-center;
+}
+.b3 .point:nth-child(1) {
+  align-self: @align-item-start;
+}
+.b3 .point:nth-child(3) {
+  align-self:@align-item-end;
+}
+
+.b4 {
+  flex-flow:@flex-wrap;
+  display:@display;
+  align-content: @align-item-start;
+  flex-basis: @self-100;
+  justify-content:@justify-content;
+}
+
+.b5{
+  flex-basis: @self-100;
+  display:@display;
+  justify-content:@justify-content;
+}
+
+.b6{
+  display:@display;
+  flex-basis: @self-100;
+  height:@self-40;
+  flex-flow:@flex-wrap;
+  justify-content: @align-center;
+  align-items: @align-center;
+
+}
+.b6 .p6{
+  flex-basis:@self-100;
+  display:@display;
+  justify-content:@justify-content;
+  align-items: @align-center;
+}
+
+.b7{
+  height:@border-radius;
+  flex-basis: @self-100;
+  display:@display;
+  flex-flow: @flex-wrap;
+}
+.p7{
+  flex-basis: @self-100;
+  display:@display;
+  justify-content: @justify-content;
+  align-content: @justify-content;
+}
+.b7:first-child{
+  justify-content: @align-center;
+}
+.b7:first-child>.point:nth-child(2){
+  align-self: @align-center;
+}
+.b7:first-child>.point:last-child{
+  align-self:@align-item-end;
+}
+.b7:last-child{
+  justify-content: @align-center;
+}
+
+.p8{
+  flex-basis:@self-100;
+  display: @display;
+  align-content: @justify-content;
+  justify-content: @justify-content;
+  align-items: @align-center;
+}
