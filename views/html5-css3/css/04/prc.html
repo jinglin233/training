@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .wrap {
+            overflow: hidden;
+            background-color: #efefef;
+        }
+
+        .left, .right {
+            float: left;
+            width: 50%;
+        }
+
+        .left > .inner {
+            position: relative;
+            padding-top: 100%;
+        }
+
+        .left img {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            left: 0;
+            top: 0;
+            vertical-align: middle;
+        }
+
+        .right > .top {
+            position: relative;
+            padding-top: 67%;
+        }
+
+        .right > .bottom {
+            position: relative;
+            padding-top: 33%;
+        }
+
+        .right img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <div class="left">
+        <div class="inner">
+            <img src="left.jpg" alt="">
+        </div>
+    </div>
+    <div class="right">
+        <div class="top">
+            <img src="right-t.jpg" alt="">
+        </div>
+        <div class="bottom">
+            <img src="right-b.jpg" alt="">
+        </div>
+    </div>
+    <!--用vw单位实现固定宽高比，列如宽取80vw，高取60vw则按4:3显示-->
+</div>
+
+</body>
+</html>

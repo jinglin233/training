@@ -94,22 +94,22 @@ color: #fff;
     display: flex;
     align-items: center;
 }
-.btn-p {
+.btn-p,.btn-a {
      display: flex;
     justify-content: center;
     align-items: center;
+}
+.btn-color{
+
+
 }
 .btn-p a{
     margin-top: 10%;
     width: 200px;
     height: 50px;
-    background-color: #75C6BF;
     line-height: 30px;
-}
-.btn-a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #75C6BF;
+
 }
 .btn-a a{
     margin-top: 10%;
